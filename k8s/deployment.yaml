@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tuni-portfolio
+  namespace: tuni-portfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tuni-portfolio
+  template:
+    metadata:
+      labels:
+        app: tuni-portfolio
+    spec:
+      containers:
+        - name: tuni-portfolio
+          image: ghcr.io/etunidev/tuni-portfolio:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
