@@ -4,3 +4,5 @@ dist/
 .env.local
 *.log
 .DS_Store
+app/src/assets/CV_German.pdf
+app/public/CV_Tunahan_Erbay.pdf

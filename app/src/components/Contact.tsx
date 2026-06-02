@@ -1,30 +1,59 @@
+function LinkedInIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </svg>
+  )
+}
+
+function GitHubIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+    </svg>
+  )
+}
+
+function MailIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+      <polyline points="22,6 12,13 2,6" />
+    </svg>
+  )
+}
+
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6 bg-gray-900/50">
-      <div className="max-w-2xl mx-auto text-center">
-        <p className="font-mono text-cyan-400 text-sm mb-3 tracking-widest uppercase">04. Contact</p>
-        <h2 className="text-4xl font-bold text-white mb-4">Get in touch</h2>
-        <p className="text-gray-400 mb-10 leading-relaxed">
-          Whether you have a question, an opportunity, or just want to say hi —
-          my inbox is always open.
-        </p>
+    <section id="contact" className="py-16 px-6">
+      <div className="flex justify-center gap-5">
+        <a
+          href="https://linkedin.com/in/terbay"
+          target="_blank"
+          rel="noreferrer"
+          title="LinkedIn"
+          className="w-12 h-12 border border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:border-cyan-500 hover:text-cyan-400 transition-colors"
+        >
+          <LinkedInIcon />
+        </a>
+        <a
+          href="https://github.com/etunidev"
+          target="_blank"
+          rel="noreferrer"
+          title="GitHub"
+          className="w-12 h-12 border border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:border-cyan-500 hover:text-cyan-400 transition-colors"
+        >
+          <GitHubIcon />
+        </a>
         <a
           href="mailto:erbaytunahan@gmail.com"
-          className="inline-block px-8 py-4 border border-cyan-500 text-cyan-400 rounded-lg hover:bg-cyan-500/10 transition-colors font-mono"
+          title="Email"
+          className="w-12 h-12 border border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:border-cyan-500 hover:text-cyan-400 transition-colors"
         >
-          erbaytunahan@gmail.com
+          <MailIcon />
         </a>
-        <div className="flex justify-center gap-8 mt-12 text-gray-500 text-sm">
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
-            GitHub
-          </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
-            LinkedIn
-          </a>
-        </div>
-        <p className="text-gray-700 text-xs mt-12 font-mono">
-          Built with React · Docker · k3s · ArgoCD
-        </p>
       </div>
     </section>
   )
