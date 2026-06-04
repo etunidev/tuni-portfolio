@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import TabPanel from './components/TabPanel'
 import Footer from './components/Footer'
+import AnimatedBackground from './components/AnimatedBackground'
 import { Tab } from './types'
 
 export default function App() {
@@ -10,12 +11,15 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
-      <Nav />
-      <main>
-        <Hero />
-        <TabPanel activeTab={activeTab} setActiveTab={setActiveTab} />
-      </main>
-      <Footer />
+      <AnimatedBackground />
+      <div className="relative z-10">
+        <Nav />
+        <main>
+          <Hero />
+          <TabPanel activeTab={activeTab} setActiveTab={setActiveTab} />
+        </main>
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -6,12 +6,12 @@ const skills: Record<string, string[]> = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-gray-900/50">
+    <section id="skills" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-10">Tech stack</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {Object.entries(skills).map(([category, items]) => (
-            <div key={category} className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+            <div key={category} className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-6">
               <h3 className="text-lg font-semibold text-white mb-4 font-mono">{category}</h3>
               <div className="flex flex-wrap gap-2">
                 {items.map(skill => (

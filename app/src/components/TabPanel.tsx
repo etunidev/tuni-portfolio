@@ -14,7 +14,7 @@ interface Props {
 export default function TabPanel({ activeTab, setActiveTab }: Props) {
   return (
     <div>
-      <div className="sticky top-[61px] z-40 bg-gray-950 border-b border-gray-800">
+      <div className="sticky top-[61px] z-40 bg-gray-950/80 backdrop-blur-sm border-b border-gray-800">
         <div className="w-full px-6 flex">
           {TABS.map(tab => (
             <button
