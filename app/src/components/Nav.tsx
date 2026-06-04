@@ -1,8 +1,15 @@
 import { useState, useEffect } from 'react'
 import portfolioData from '../assets/portfolio.json'
+import { TABS, Tab } from '../types'
 
 const cvUrl = '/CV_Tunahan_Erbay.pdf'
 const { email } = portfolioData.about
+
+interface NavProps {
+  tabsInNav?: boolean
+  activeTab?: Tab
+  setActiveTab?: (tab: Tab) => void
+}
 
 function DocumentIcon() {
   return (
@@ -24,7 +31,7 @@ function MailIcon() {
   )
 }
 
-export default function Nav() {
+export default function Nav({ tabsInNav, activeTab, setActiveTab }: NavProps) {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -35,10 +42,31 @@ export default function Nav() {
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-gray-950/90 backdrop-blur border-b border-gray-800' : ''
+      scrolled || tabsInNav ? 'bg-gray-950/90 backdrop-blur border-b border-gray-800' : ''
     }`}>
       <div className="w-full px-6 py-4 flex items-center justify-between">
         <a href="#" className="font-mono text-cyan-400 font-medium text-lg">tuni.dev</a>
+
+        {setActiveTab && (
+          <div className={`flex items-center gap-1 absolute left-1/2 -translate-x-1/2 transition-opacity duration-200 ${
+            tabsInNav ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          }`}>
+            {TABS.map(tab => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`px-4 py-1.5 text-sm font-mono rounded-md transition-colors ${
+                  activeTab === tab
+                    ? 'text-cyan-400 bg-cyan-400/10'
+                    : 'text-gray-500 hover:text-gray-300'
+                }`}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+        )}
+
         <div className="flex items-center gap-3">
           <a
             href={cvUrl}
