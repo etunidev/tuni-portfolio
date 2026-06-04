@@ -1,0 +1,415 @@
+{
+    "education":[
+        {
+            "title":"Bachelor of Computer Science",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"2018-08",
+            "endDate":"2022-07",
+            "summary":"Bachelor's degree in Computer Science with a focus on software engineering, programming, databases, algorithms, and practical software development projects."
+        },
+        {
+            "title":"Swiss Federal Matura",
+            "organization":"Kantonsschule Olten",
+            "location":"Olten, CH",
+            "startDate":"2014-08",
+            "endDate":"2018-07",
+            "summary":"Secondary education with a specialization in Physics and Applications of Mathematics."
+        }
+    ],
+    "experience":[
+        {
+            "title":"Senior Software Engineer",
+            "organization":"ELCA Informatik AG",
+            "location":"Bern, CH",
+            "startDate":"2022-08",
+            "endDate":null,
+            "summary":"Joined ELCA as a Fullstack Software Engineer and was promoted to Senior Software Engineer in 2025. Over time, I took on additional responsibilities as Scrum Master and Lead Developer, contributing to software architecture, technical decision-making, and the successful delivery of enterprise software solutions. Currently, I am working on a new project, helping establish its frontend, backend, and DevOps foundations while driving development across the full technology stack.",
+            "achievements":[
+                "Promoted from Software Engineer to Senior Software Engineer while taking on additional responsibilities as Scrum Master and Lead Developer.",
+                "Led agile delivery processes as Scrum Master during a major release, facilitating collaboration between Swiss and offshore development teams.",
+                "Helped establish a new project from the ground up, including frontend, backend, DevOps, and development processes."
+            ],
+            "skills":[
+                "Spring Boot",
+                "Angular",
+                "SAP CC",
+                "WSO2",
+                "Git",
+                "Maven",
+                "Jenkins",
+                "Bitbucket",
+                "Jira",
+                "Confluence",
+                "Scrum",
+                "Figma",
+                "Miro",
+                "IntelliJ IDEA",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "title":"Founder / Web Developer",
+            "organization":"Webmo",
+            "location":"Olten, CH",
+            "startDate":"2020-01",
+            "endDate":null,
+            "summary":"Developed and maintained WordPress websites and hosting solutions for private individuals and small to medium-sized businesses. Responsible for the technical implementation, customization, maintenance, and long-term support of client solutions.",
+            "achievements":[
+                "Designed and operated a Linux- and Nginx-based hosting platform for client projects.",
+                "Developed, customized, and maintained WordPress websites and plugins for more than 20 clients."
+            ],
+            "skills":[
+                "WordPress",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Client Support",
+                "Linux",
+                "Nginx"
+            ]
+        },
+        {
+            "title":"Web Developer",
+            "organization":"Independent Project",
+            "location":"Olten, CH",
+            "startDate":"2021-01",
+            "endDate":"2021-07",
+            "summary":"Built and operated an e-commerce business to gain hands-on experience in web development, digital marketing, and customer acquisition.",
+            "achievements":[
+                "Built a WooCommerce-based e-commerce platform from scratch, including frontend implementation and visual design.",
+                "Acquired initial customers through targeted Google Ads and Meta Ads campaigns."
+            ],
+            "skills":[
+                "Woocommerce", 
+				"Wordpress",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "E-Commerce",
+                "Marketing",
+                "Google Ads",
+                "Meta Ads"
+            ]
+        }
+    ],
+    "courses":[
+        {
+            "title":"Angular - The Complete Guide",
+            "organization":"Udemy",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2022-09",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Angular",
+                "TypeScript",
+                "JavaScript"
+            ]
+        },
+        {
+            "title":"Angular Advanced Training",
+            "organization":"Jonas Bandi",
+            "location":"Bern, CH",
+            "startDate":"",
+            "endDate":"2022-06",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Angular",
+                "TypeScript"
+            ]
+        },
+        {
+            "title":"Application Security Fundamentals",
+            "organization":"ELCA",
+            "location":"Zurich, CH",
+            "startDate":"",
+            "endDate":"2023-02",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Application Security"
+            ]
+        },
+        {
+            "title":"BPMN Method & Style",
+            "organization":"Stephan Fischli",
+            "location":"Bern, CH",
+            "startDate":"",
+            "endDate":"2023-03",
+            "certified":true,
+            "summary":"Advanced BPMN modeling course including certification.",
+            "skills":[
+                "BPMN"
+            ]
+        },
+        {
+            "title":"Code Quality",
+            "organization":"ELCA",
+            "location":"Zurich, CH",
+            "startDate":"",
+            "endDate":"2023-05",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Code Quality"
+            ]
+        },
+        {
+            "title":"Quality in Software Design",
+            "organization":"ELCA",
+            "location":"Zurich, CH",
+            "startDate":"",
+            "endDate":"2023-05",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Software Design",
+                "Quality"
+            ]
+        },
+        {
+            "title":"Usability/UX Introduction",
+            "organization":"ELCA",
+            "location":"Zurich, CH",
+            "startDate":"",
+            "endDate":"2023-09",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "UX",
+                "Usability"
+            ]
+        },
+        {
+            "title":"The Role of Scrum Master",
+            "organization":"ELCA",
+            "location":"Bern, CH",
+            "startDate":"",
+            "endDate":"2023-10",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Scrum"
+            ]
+        },
+        {
+            "title":"Kubernetes Native Development with Quarkus",
+            "organization":"Red Hat",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2024-05",
+            "certified":false,
+            "summary":"Architecture workshop focused on cloud-native application development using Kubernetes and Quarkus.",
+            "skills":[
+                "Kubernetes",
+                "Quarkus",
+                "Architecture"
+            ]
+        },
+        {
+            "title":"Problem Solving",
+            "organization":"ELCA",
+            "location":"Zurich, CH",
+            "startDate":"",
+            "endDate":"2024-06",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Problem Solving"
+            ]
+        },
+        {
+            "title":"Professional Scrum Master I",
+            "organization":"Scrum.org",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2024-08",
+            "certified":true,
+            "summary":"",
+            "skills":[
+                "Agile",
+                "Scrum"
+            ]
+        },
+        {
+            "title":"Spring & Hibernate for Beginners",
+            "organization":"Udemy",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2024-11",
+            "certified":false,
+            "summary":"Comprehensive course covering Spring, Hibernate, and Spring Boot development.",
+            "skills":[
+                "Spring",
+                "Hibernate",
+                "Spring Boot"
+            ]
+        },
+        {
+            "title":"Leading SAFe - Certified SAFe 6 Agilist",
+            "organization":"Scaled Agile, Inc.",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2025-03",
+            "certified":true,
+            "summary":"",
+            "skills":[
+                "SAFe",
+                "Agile"
+            ]
+        },
+        {
+            "title":"Communication",
+            "organization":"ELCA",
+            "location":"Bern, CH",
+            "startDate":"",
+            "endDate":"2025-02",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Communication"
+            ]
+        },
+        {
+            "title":"Developing Generative AI Applications on AWS",
+            "organization":"Fast Lane",
+            "location":"Online",
+            "startDate":"",
+            "endDate":"2026-01",
+            "certified":false,
+            "summary":"",
+            "skills":[
+                "Generative AI",
+                "AWS"
+            ]
+        }
+    ],
+    "projects":[
+        {
+            "title":"Multiplayer Gorillas Remake",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2019-05",
+            "summary":"Designed and developed a multiplayer remake of the classic Gorillas game, focusing on game physics, networking, and real-time synchronization.",
+            "achievements":[
+                "Implemented deterministic physics, collision handling, and a real-time peer-to-peer networking layer in Java for synchronized multiplayer."
+            ],
+            "skills":[
+                "Java",
+                "Game Physics",
+                "Networking"
+            ]
+        },
+        {
+            "title":"JabRef User Interface Extension",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2019-12",
+            "summary":"Developed a user interface extension for the open-source project JabRef, enhancing customization and accessibility features.",
+            "achievements":[
+                "Developed and implemented a user interface extension for JabRef, a widely used open-source Java application for managing BibTeX and BibLaTeX databases. The extension provided additional customization options, including themes, color schemes, and templates, while addressing accessibility requirements and enhancing usability."
+            ],
+            "skills":[
+                "Java",
+                "Scrum",
+                "Accessibility"
+            ]
+        },
+        {
+            "title":"Decentralized Messaging System",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2020-05",
+            "summary":"Developed a secure decentralized messaging application enabling peer-to-peer communication without relying on centralized servers.",
+            "achievements":[
+                "Built an end-to-end encrypted chat application UI in Python using Tkinter, implementing decentralized peer-to-peer communication over BACnet without relying on a central server."
+            ],
+            "skills":[
+                "Python",
+                "Encryption",
+                "Networking",
+                "Peer-to-Peer",
+                "Security"
+            ]
+        },
+        {
+            "title":"Modular LED Gaming Console",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2020-01",
+            "summary":"Designed and built a modular LED-based gaming console from scratch, including both hardware and software components.",
+            "achievements":[
+                "Designed and built a custom multiplexed LED matrix with simulated circuitry and hand-soldered components, then programmed a plug-in game framework with joystick input in Arduino/C++."
+            ],
+            "skills":[
+                "C",
+                "C++",
+                "Circuit Design",
+                "Embedded Systems",
+                "Hardware Design",
+                "Arduino"
+            ]
+        },
+        {
+            "title":"Linux Command-Line Integration Tool",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2021-01",
+            "summary":"Reimplemented core Linux shell functionality and file system operations in C, including support for remote file system integration.",
+            "achievements":[
+                "Developed a minimal Gnome-Terminal-style shell in C, reimplementing 20+ core commands and adding support for mounting remote servers over SSH so they appear as regular directories."
+            ],
+            "skills":[
+                "C",
+                "Systems Programming",
+                "Filesystems",
+                "SSH"
+            ]
+        },
+        {
+            "title":"Data Integration and Analysis Pipeline",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2021-01",
+            "summary":"Designed and implemented a data integration pipeline for collecting, transforming, and analyzing heterogeneous datasets from multiple sources.",
+            "achievements":[
+                "Analyzed 4 GB of U.S. crime and economic data drawn from multiple sources and mixed datatypes, using SQL and Pandas to integrate them into a single coherent dataset. Performed data cleaning, integration, and visualization."
+            ],
+            "skills":[
+                "SQL",
+                "Python",
+                "Data Engineering",
+                "ETL",
+                "Data Visualization",
+                "Data Analysis"
+            ]
+        },
+        {
+            "title":"Bachelor Thesis: Secure Scuttlebutt Kotlin Library",
+            "organization":"University of Basel",
+            "location":"Basel, CH",
+            "startDate":"",
+            "endDate":"2022-01",
+            "summary":"Developed a Kotlin-based implementation of the Secure Scuttlebutt (SSB) group chat protocol and transformed it into a reusable library, enabling secure and decentralized group communication within the Tremola ecosystem.",
+            "achievements":[
+                "Implemented the protocol's core cryptographic functionality, including key derivation, HMAC-based key generation, and secure message encryption/decryption to ensure confidential group communication.",
+                "Designed and implemented the Slot/Unslot mechanisms and group identifier mapping, enabling secure recipient access control while preserving group privacy in public references."
+            ],
+            "skills":[
+                "Kotlin",
+                "Security",
+                "Encryption",
+                "HMAC"
+            ]
+        }
+    ]
+}

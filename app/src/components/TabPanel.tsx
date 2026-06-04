@@ -2,6 +2,7 @@ import { TABS, Tab } from '../types'
 import About from './About'
 import Skills from './Skills'
 import Experience from './Experience'
+import Education from './Education'
 import Projects from './Projects'
 import Courses from './Courses'
 
@@ -34,6 +35,7 @@ export default function TabPanel({ activeTab, setActiveTab }: Props) {
         {activeTab === 'About' && <About />}
         {activeTab === 'Skills' && <Skills />}
         {activeTab === 'Experience' && <Experience />}
+        {activeTab === 'Education' && <Education />}
         {activeTab === 'Projects' && <Projects />}
         {activeTab === 'Courses' && <Courses />}
       </div>
