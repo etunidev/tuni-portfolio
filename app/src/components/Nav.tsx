@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
+import portfolioData from '../assets/portfolio.json'
+
 const cvUrl = '/CV_Tunahan_Erbay.pdf'
+const { email } = portfolioData.about
 
 function DocumentIcon() {
   return (
@@ -46,7 +49,7 @@ export default function Nav() {
             Resume
           </a>
           <a
-            href="#contact"
+            href={`mailto:${email}`}
             className="flex items-center gap-2 px-4 py-2 text-sm bg-cyan-500 text-gray-950 rounded-lg hover:bg-cyan-400 transition-colors font-semibold"
           >
             <MailIcon />

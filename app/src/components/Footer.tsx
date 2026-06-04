@@ -25,12 +25,16 @@ function MailIcon() {
   )
 }
 
+import portfolioData from '../assets/portfolio.json'
+
+const { email, linkedin, github } = portfolioData.about
+
 export default function Footer() {
   return (
     <footer id="contact" className="py-8 border-t border-gray-800 text-center space-y-4">
       <div className="flex justify-center gap-4">
         <a
-          href="https://linkedin.com/in/terbay"
+          href={linkedin}
           target="_blank"
           rel="noreferrer"
           title="LinkedIn"
@@ -39,7 +43,7 @@ export default function Footer() {
           <LinkedInIcon />
         </a>
         <a
-          href="https://github.com/etunidev"
+          href={github}
           target="_blank"
           rel="noreferrer"
           title="GitHub"
@@ -48,14 +52,14 @@ export default function Footer() {
           <GitHubIcon />
         </a>
         <a
-          href="mailto:erbaytunahan@gmail.com"
+          href={`mailto:${email}`}
           title="Email"
           className="w-10 h-10 border border-gray-700 rounded-full flex items-center justify-center text-gray-500 hover:border-cyan-500 hover:text-cyan-400 transition-colors"
         >
           <MailIcon />
         </a>
       </div>
-      <p className="text-gray-600 text-xs font-mono">© 2026 Tunahan Erbay</p>
+      <p className="text-gray-600 text-xs font-mono">© {new Date().getFullYear()} Tunahan Erbay</p>
     </footer>
   )
 }
