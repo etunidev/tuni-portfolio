@@ -59,9 +59,9 @@ export function PortfolioCard({ entry, open, onToggle }: Props) {
 
   return (
     <div className="relative pb-8 last:pb-4">
-      {/* Date — left of the timeline line */}
+      {/* Date — left of the timeline line, w-40 matches section gutter */}
       {period && (
-        <div className="absolute hidden sm:block w-36 text-right pr-6 top-0 right-full">
+        <div className="absolute hidden sm:block w-40 text-right pr-5 top-0 right-full">
           <span className="text-xs font-mono text-gray-500 leading-snug">{period}</span>
         </div>
       )}
@@ -69,8 +69,13 @@ export function PortfolioCard({ entry, open, onToggle }: Props) {
       {/* Dot on the timeline line */}
       <div className="hidden sm:block absolute -left-[5px] top-[5px] w-2.5 h-2.5 rounded-full bg-gray-950 border-2 border-cyan-500 z-10" />
 
-      {/* Content */}
-      <div className="pl-0 sm:pl-8">
+      {/* Content — entire area is clickable when expandable */}
+      <div
+        onClick={hasExpandable ? onToggle : undefined}
+        className={`pl-0 sm:pl-8 rounded-lg -mx-2 px-2 py-2 -my-2 transition-colors ${
+          hasExpandable ? 'cursor-pointer hover:bg-white/[0.03]' : ''
+        }`}
+      >
         {/* Mobile: date above title */}
         {period && (
           <p className="sm:hidden text-xs font-mono text-gray-600 mb-1.5">{period}</p>
@@ -103,13 +108,9 @@ export function PortfolioCard({ entry, open, onToggle }: Props) {
               </span>
             )}
             {hasExpandable && (
-              <button
-                onClick={onToggle}
-                className="text-gray-600 hover:text-gray-300 transition-colors ml-1"
-                aria-label={open ? 'Collapse' : 'Expand'}
-              >
+              <span className="text-gray-600 ml-1">
                 <Chevron open={open} />
-              </button>
+              </span>
             )}
           </div>
         </div>

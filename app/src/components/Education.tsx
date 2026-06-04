@@ -7,9 +7,9 @@ export default function Education() {
 
   return (
     <section className="py-10 px-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <div className="flex">
-          <div className="hidden sm:block w-36 shrink-0" />
+          <div className="hidden sm:block w-40 shrink-0" />
           <div className="flex-1 border-l border-gray-800">
             {portfolioData.education.map((entry, i) => (
               <PortfolioCard
