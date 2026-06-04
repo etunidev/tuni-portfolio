@@ -1,6 +1,9 @@
+import { OrgLogo } from './OrgLogo'
+
 export interface CardEntry {
   title: string
   organization: string
+  logo?: string
   location?: string
   startDate?: string | null
   endDate?: string | null
@@ -83,6 +86,7 @@ export function PortfolioCard({ entry, open, onToggle }: Props) {
 
         {/* Title row */}
         <div className="flex items-start justify-between gap-3">
+          <OrgLogo logo={entry.logo} name={entry.organization} />
           <div className="flex-1 min-w-0">
             <p className="text-white font-semibold leading-snug">{entry.title}</p>
             <p className="text-cyan-400 font-mono text-sm mt-0.5">

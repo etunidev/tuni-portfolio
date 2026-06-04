@@ -82,6 +82,7 @@
         {
             "title":"Bachelor of Computer Science",
             "organization":"University of Basel",
+            "logo":"uni-basel.webp",
             "location":"Basel, CH",
             "startDate":"2018-08",
             "endDate":"2022-07",
@@ -90,6 +91,7 @@
         {
             "title":"Swiss Federal Matura",
             "organization":"Kantonsschule Olten",
+            "logo":"kantonsschule-olten.svg",
             "location":"Olten, CH",
             "startDate":"2014-08",
             "endDate":"2018-07",
@@ -100,6 +102,7 @@
         {
             "title":"Senior Software Engineer",
             "organization":"ELCA Informatik AG",
+            "logo":"elca.webp",
             "location":"Bern, CH",
             "startDate":"2022-08",
             "endDate":null,
@@ -129,7 +132,8 @@
         },
         {
             "title":"Web Developer",
-            "organization":"Independent Project",
+            "organization":"Relaxor",
+            "logo":"relaxor.webp",
             "location":"Olten, CH",
             "startDate":"2021-01",
             "endDate":"2021-07",
@@ -153,6 +157,7 @@
         {
             "title":"Founder / Web Developer",
             "organization":"Webmo",
+            "logo":"webmo.webp",
             "location":"Olten, CH",
             "startDate":"2020-01",
             "endDate":null,
@@ -176,6 +181,7 @@
         {
             "title":"Developing Generative AI Applications on AWS",
             "organization":"Fast Lane",
+            "logo":"fast-lane.png",
             "location":"Online",
             "startDate":"",
             "endDate":"2026-01",
@@ -189,6 +195,7 @@
         {
             "title":"Leading SAFe - Certified SAFe 6 Agilist",
             "organization":"Scaled Agile, Inc.",
+            "logo":"SAFe.webp",
             "location":"Online",
             "startDate":"",
             "endDate":"2025-03",
@@ -202,6 +209,7 @@
         {
             "title":"Communication",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Bern, CH",
             "startDate":"",
             "endDate":"2025-02",
@@ -214,6 +222,7 @@
         {
             "title":"Spring & Hibernate for Beginners",
             "organization":"Udemy",
+            "logo":"spring.svg",
             "location":"Online",
             "startDate":"",
             "endDate":"2024-11",
@@ -228,6 +237,7 @@
         {
             "title":"Professional Scrum Master I",
             "organization":"Scrum.org",
+            "logo":"scrum-psm.webp",
             "location":"Online",
             "startDate":"",
             "endDate":"2024-08",
@@ -241,6 +251,7 @@
         {
             "title":"Problem Solving",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Zurich, CH",
             "startDate":"",
             "endDate":"2024-06",
@@ -253,6 +264,7 @@
         {
             "title":"Kubernetes Native Development with Quarkus",
             "organization":"Red Hat",
+            "logo":"quarkus.svg",
             "location":"Online",
             "startDate":"",
             "endDate":"2024-05",
@@ -267,6 +279,7 @@
         {
             "title":"The Role of Scrum Master",
             "organization":"ELCA",
+            "logo":"scrum-org.svg",
             "location":"Bern, CH",
             "startDate":"",
             "endDate":"2023-10",
@@ -279,6 +292,7 @@
         {
             "title":"Usability/UX Introduction",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Zurich, CH",
             "startDate":"",
             "endDate":"2023-09",
@@ -292,6 +306,7 @@
         {
             "title":"Angular Advanced Training",
             "organization":"Jonas Bandi",
+            "logo":"angular.svg",
             "location":"Bern, CH",
             "startDate":"",
             "endDate":"2023-06",
@@ -305,6 +320,7 @@
         {
             "title":"Quality in Software Design",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Zurich, CH",
             "startDate":"",
             "endDate":"2023-05",
@@ -318,6 +334,7 @@
         {
             "title":"Code Quality",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Zurich, CH",
             "startDate":"",
             "endDate":"2023-05",
@@ -330,6 +347,7 @@
         {
             "title":"BPMN Method & Style",
             "organization":"Stephan Fischli",
+            "logo":"bpmn.svg",
             "location":"Bern, CH",
             "startDate":"",
             "endDate":"2023-03",
@@ -342,6 +360,7 @@
         {
             "title":"Application Security Fundamentals",
             "organization":"ELCA",
+            "logo":"elca.webp",
             "location":"Zurich, CH",
             "startDate":"",
             "endDate":"2023-02",
@@ -354,6 +373,7 @@
         {
             "title":"Angular - The Complete Guide",
             "organization":"Udemy",
+            "logo":"angular.svg",
             "location":"Online",
             "startDate":"",
             "endDate":"2022-09",
@@ -370,6 +390,7 @@
         {
             "title":"Bachelor Thesis: Secure Scuttlebutt Kotlin Library",
             "organization":"University of Basel",
+            "logo":"project-ssb.svg",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2022-01",
@@ -388,6 +409,7 @@
         {
             "title":"Data Integration and Analysis Pipeline",
             "organization":"University of Basel",
+            "logo":"project-data-pipeline.svg",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2021-01",
@@ -407,6 +429,7 @@
         {
             "title":"Linux Command-Line Integration Tool",
             "organization":"University of Basel",
+            "logo":"project-linux-shell.svg",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2020-10",
@@ -424,6 +447,7 @@
         {
             "title":"Decentralized Messaging System",
             "organization":"University of Basel",
+            "logo":"bacnet.webp",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2020-05",
@@ -442,6 +466,7 @@
         {
             "title":"Modular LED Gaming Console",
             "organization":"University of Basel",
+            "logo":"project-led-console.svg",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2020-01",
@@ -461,6 +486,7 @@
         {
             "title":"JabRef User Interface Extension",
             "organization":"University of Basel",
+            "logo":"jabref.svg",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2019-12",
@@ -477,6 +503,7 @@
         {
             "title":"Multiplayer Gorillas Remake",
             "organization":"University of Basel",
+            "logo":"gorillas.webp",
             "location":"Basel, CH",
             "startDate":"",
             "endDate":"2019-05",
