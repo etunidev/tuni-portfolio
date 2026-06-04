@@ -1,4 +1,83 @@
 {
+    "hero":{
+        "name":"Tunahan Erbay",
+        "position":"Senior Fullstack Software Engineer",
+        "introduction":"Hi, I'm Tuni. I build software that is designed to last. With {yearsOfExperience} years of experience across frontend and backend development, I enjoy solving complex technical challenges, improving existing systems, and creating reliable solutions that deliver real value."
+    },
+    "about":{
+        "location":"Obergösgen, CH",
+        "email":"erbaytunahan@gmail.com",
+        "linkedin":"https://www.linkedin.com/in/terbay/",
+        "github":"https://github.com/etunidev",
+        "interests":["AI", "Process Automation", "Sports"],
+        "languages":[
+            {
+                "language":"German",
+                "fluency":"Native"
+            },
+            {
+                "language":"Swiss German",
+                "fluency":"Native"
+            },
+            {
+                "language":"Turkish",
+                "fluency":"Native"
+            },
+            {
+                "language":"English",
+                "fluency":"Professional working proficiency"
+            },
+            {
+                "language":"French",
+                "fluency":"Basic written proficiency"
+            }
+        ]
+    },
+    "skills":{
+        "backend":[
+            "Java",
+            "Spring Boot",
+            "Python",
+            "SQL"
+        ],
+        "frontend":[
+            "Angular",
+            "TypeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React"
+        ],
+        "devops":[
+            "Git",
+            "Maven",
+            "Jenkins",
+            "Bitbucket",
+            "Docker",
+            "RHOS"
+        ],
+        "tools":[
+            "IntelliJ IDEA",
+            "Visual Studio Code",
+            "Jira",
+            "Confluence",
+            "Figma",
+            "Miro"
+        ],
+        "methods":[
+            "Scrum",
+            "SAFe",
+            "BPMN",
+            "Software Architecture"
+        ],
+        "softSkills":[
+            "Problem Solving",
+            "Communication",
+            "Teamwork",
+            "Technical Leadership",
+            "Analytical Thinking"
+        ]
+    },
     "education":[
         {
             "title":"Bachelor of Computer Science",
@@ -60,8 +139,8 @@
                 "Acquired initial customers through targeted Google Ads and Meta Ads campaigns."
             ],
             "skills":[
-                "Woocommerce", 
-				"Wordpress",
+                "Woocommerce",
+                "Wordpress",
                 "JavaScript",
                 "HTML",
                 "CSS",
@@ -107,7 +186,7 @@
                 "AWS"
             ]
         },
-		{
+        {
             "title":"Leading SAFe - Certified SAFe 6 Agilist",
             "organization":"Scaled Agile, Inc.",
             "location":"Online",
@@ -120,7 +199,7 @@
                 "Agile"
             ]
         },
-		 {
+        {
             "title":"Communication",
             "organization":"ELCA",
             "location":"Bern, CH",
@@ -132,7 +211,7 @@
                 "Communication"
             ]
         },
-		{
+        {
             "title":"Spring & Hibernate for Beginners",
             "organization":"Udemy",
             "location":"Online",
@@ -146,7 +225,7 @@
                 "Spring Boot"
             ]
         },
-		{
+        {
             "title":"Professional Scrum Master I",
             "organization":"Scrum.org",
             "location":"Online",
@@ -159,7 +238,7 @@
                 "Scrum"
             ]
         },
-		{
+        {
             "title":"Problem Solving",
             "organization":"ELCA",
             "location":"Zurich, CH",
@@ -171,7 +250,7 @@
                 "Problem Solving"
             ]
         },
-		{
+        {
             "title":"Kubernetes Native Development with Quarkus",
             "organization":"Red Hat",
             "location":"Online",
@@ -185,7 +264,7 @@
                 "Architecture"
             ]
         },
-		{
+        {
             "title":"The Role of Scrum Master",
             "organization":"ELCA",
             "location":"Bern, CH",
@@ -197,7 +276,7 @@
                 "Scrum"
             ]
         },
-		{
+        {
             "title":"Usability/UX Introduction",
             "organization":"ELCA",
             "location":"Zurich, CH",
@@ -210,7 +289,7 @@
                 "Usability"
             ]
         },
-		{
+        {
             "title":"Angular Advanced Training",
             "organization":"Jonas Bandi",
             "location":"Bern, CH",
@@ -223,7 +302,7 @@
                 "TypeScript"
             ]
         },
-		{
+        {
             "title":"Quality in Software Design",
             "organization":"ELCA",
             "location":"Zurich, CH",
@@ -236,7 +315,7 @@
                 "Quality"
             ]
         },
-		{
+        {
             "title":"Code Quality",
             "organization":"ELCA",
             "location":"Zurich, CH",
@@ -248,7 +327,7 @@
                 "Code Quality"
             ]
         },
-		{
+        {
             "title":"BPMN Method & Style",
             "organization":"Stephan Fischli",
             "location":"Bern, CH",
@@ -260,7 +339,7 @@
                 "BPMN"
             ]
         },
-		{
+        {
             "title":"Application Security Fundamentals",
             "organization":"ELCA",
             "location":"Zurich, CH",
@@ -272,7 +351,7 @@
                 "Application Security"
             ]
         },
-		{
+        {
             "title":"Angular - The Complete Guide",
             "organization":"Udemy",
             "location":"Online",
@@ -306,7 +385,7 @@
                 "HMAC"
             ]
         },
-		{
+        {
             "title":"Data Integration and Analysis Pipeline",
             "organization":"University of Basel",
             "location":"Basel, CH",
@@ -325,7 +404,7 @@
                 "Data Analysis"
             ]
         },
-		{
+        {
             "title":"Linux Command-Line Integration Tool",
             "organization":"University of Basel",
             "location":"Basel, CH",
@@ -342,7 +421,7 @@
                 "SSH"
             ]
         },
-		{
+        {
             "title":"Decentralized Messaging System",
             "organization":"University of Basel",
             "location":"Basel, CH",
@@ -360,7 +439,7 @@
                 "Security"
             ]
         },
-		{
+        {
             "title":"Modular LED Gaming Console",
             "organization":"University of Basel",
             "location":"Basel, CH",
@@ -379,7 +458,7 @@
                 "Arduino"
             ]
         },
-		{
+        {
             "title":"JabRef User Interface Extension",
             "organization":"University of Basel",
             "location":"Basel, CH",
@@ -395,7 +474,7 @@
                 "Accessibility"
             ]
         },
-		{
+        {
             "title":"Multiplayer Gorillas Remake",
             "organization":"University of Basel",
             "location":"Basel, CH",

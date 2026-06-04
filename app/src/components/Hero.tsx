@@ -1,4 +1,17 @@
 import tuniImg from '../assets/tuni.png'
+import portfolioData from '../assets/portfolio.json'
+
+function calcYearsOfExperience(startYear: number, startMonth: number, startDay: number): string {
+  const start = new Date(startYear, startMonth - 1, startDay)
+  const today = new Date()
+  let years = today.getFullYear() - start.getFullYear()
+  const m = today.getMonth() - start.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < start.getDate())) years--
+  return `${years}+`
+}
+
+const { name, position, introduction } = portfolioData.hero
+const intro = introduction.replace('{yearsOfExperience}', calcYearsOfExperience(2018, 6, 1))
 
 export default function Hero() {
   return (
@@ -9,22 +22,15 @@ export default function Hero() {
         <div className="mb-6 flex justify-center">
           <img
             src={tuniImg}
-            alt="Tunahan Erbay"
+            alt={name}
             className="w-44 h-44 rounded-full object-cover border-2 border-cyan-500/40"
           />
         </div>
-        <p className="font-mono text-cyan-400 text-sm mb-4 tracking-widest uppercase">Hello, I'm</p>
         <h1 className="text-5xl font-bold mb-4 text-white">
-          Tunahan <span className="text-gradient">Erbay</span>
+          {name.split(' ')[0]} <span className="text-gradient">{name.split(' ').slice(1).join(' ')}</span>
         </h1>
-        <p className="text-xl text-gray-400 mb-6 font-light">
-          Fullstack Software Engineer
-        </p>
-        <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-          Fullstack Software Engineer based in Switzerland with 8+ years of hands-on
-          experience across the full software stack. Focused on clean architecture,
-          code quality, and delivering reliable software.
-        </p>
+        <p className="text-xl text-gray-400 mb-6 font-light">{position}</p>
+        <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">{intro}</p>
       </div>
     </section>
   )
