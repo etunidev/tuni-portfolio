@@ -26,7 +26,7 @@ export default function Hero() {
             className="w-44 h-44 rounded-full object-cover border-2 border-cyan-500/40"
           />
         </div>
-        <h1 className="text-5xl font-bold mb-4 text-white">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-white">
           {name.split(' ')[0]} <span className="text-gradient">{name.split(' ').slice(1).join(' ')}</span>
         </h1>
         <p className="text-xl text-gray-400 mb-6 font-light">{position}</p>

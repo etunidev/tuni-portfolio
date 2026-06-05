@@ -15,14 +15,14 @@ interface Props {
 export default function TabPanel({ activeTab, setActiveTab, tabsInNav }: Props) {
   return (
     <div>
-      <div className={`w-full px-6 flex border-b border-gray-800 transition-opacity duration-200 ${
+      <div className={`w-full flex border-b border-gray-800 transition-opacity duration-200 overflow-x-auto scrollbar-none ${
         tabsInNav ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}>
         {TABS.map(tab => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-5 py-4 text-sm font-mono whitespace-nowrap transition-colors border-b-2 -mb-px ${
+            className={`px-3 sm:px-5 py-4 text-sm font-mono whitespace-nowrap transition-colors border-b-2 -mb-px ${
               activeTab === tab
                 ? 'text-cyan-400 border-cyan-400'
                 : 'text-gray-500 border-transparent hover:text-gray-300'

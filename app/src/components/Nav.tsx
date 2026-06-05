@@ -71,17 +71,17 @@ export default function Nav({ tabsInNav, activeTab, setActiveTab }: NavProps) {
           <a
             href={cvUrl}
             download="CV_Tunahan_Erbay.pdf"
-            className="flex items-center gap-2 px-4 py-2 text-sm text-gray-300 border border-gray-700 rounded-lg hover:border-cyan-500 hover:text-cyan-400 transition-colors font-mono"
+            className="flex items-center gap-2 px-3 sm:px-4 py-2 text-sm text-gray-300 border border-gray-700 rounded-lg hover:border-cyan-500 hover:text-cyan-400 transition-colors font-mono"
           >
             <DocumentIcon />
-            Resume
+            <span className="hidden sm:inline">Resume</span>
           </a>
           <a
             href={`mailto:${email}`}
-            className="flex items-center gap-2 px-4 py-2 text-sm bg-cyan-500 text-gray-950 rounded-lg hover:bg-cyan-400 transition-colors font-semibold"
+            className="flex items-center gap-2 px-3 sm:px-4 py-2 text-sm bg-cyan-500 text-gray-950 rounded-lg hover:bg-cyan-400 transition-colors font-semibold"
           >
             <MailIcon />
-            Contact
+            <span className="hidden sm:inline">Contact</span>
           </a>
         </div>
       </div>
