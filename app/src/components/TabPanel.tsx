@@ -15,8 +15,8 @@ interface Props {
 export default function TabPanel({ activeTab, setActiveTab, tabsInNav }: Props) {
   return (
     <div>
-      <div className={`w-full flex border-b border-gray-800 transition-opacity duration-200 overflow-x-auto scrollbar-none ${
-        tabsInNav ? 'opacity-0 pointer-events-none' : 'opacity-100'
+      <div className={`w-full flex border-b border-gray-800 overflow-x-auto scrollbar-none sticky top-[61px] z-40 bg-gray-950/80 backdrop-blur-sm sm:static sm:bg-transparent sm:backdrop-blur-none sm:z-auto sm:transition-opacity sm:duration-200 ${
+        tabsInNav ? 'sm:opacity-0 sm:pointer-events-none' : 'sm:opacity-100'
       }`}>
         {TABS.map(tab => (
           <button

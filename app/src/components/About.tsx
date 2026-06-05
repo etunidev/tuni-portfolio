@@ -67,7 +67,7 @@ function GlobeIcon() {
 export default function About() {
   return (
     <section className="py-12 px-6">
-      <div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-3">
+      <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-3">
 
         <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-4">
           <div className="flex items-center gap-1.5 mb-2 text-cyan-400">

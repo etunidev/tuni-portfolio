@@ -48,7 +48,7 @@ export default function Nav({ tabsInNav, activeTab, setActiveTab }: NavProps) {
         <a href="#" className="font-mono text-cyan-400 font-medium text-lg">tuni.dev</a>
 
         {setActiveTab && (
-          <div className={`flex items-center gap-1 absolute left-1/2 -translate-x-1/2 transition-opacity duration-200 ${
+          <div className={`hidden sm:flex items-center gap-1 absolute left-1/2 -translate-x-1/2 transition-opacity duration-200 ${
             tabsInNav ? 'opacity-100' : 'opacity-0 pointer-events-none'
           }`}>
             {TABS.map(tab => (
