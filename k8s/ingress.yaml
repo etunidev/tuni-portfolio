@@ -5,15 +5,27 @@ metadata:
   namespace: tuni-portfolio
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
 spec:
-  ingressClassName: nginx
+  ingressClassName: traefik
   tls:
     - hosts:
         - tuni.dev
+        - www.tuni.dev
       secretName: tuni-dev-tls
   rules:
     - host: tuni.dev
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: tuni-portfolio
+                port:
+                  number: 80
+    - host: www.tuni.dev
       http:
         paths:
           - path: /
