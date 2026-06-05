@@ -388,6 +388,36 @@
     ],
     "projects":[
         {
+            "title":"tuni.dev — Portfolio & DevOps Platform",
+            "organization":"Personal Project",
+            "logo":"project-devops.svg",
+            "location":"Remote",
+            "startDate":"",
+            "endDate":"2026-05",
+            "summary":"Built and deployed a personal portfolio website with a full DevOps pipeline, covering containerization, GitOps-based continuous delivery, and cloud infrastructure on Kubernetes.",
+            "achievements":[
+                "Built a fully responsive portfolio site in React + TypeScript with Tailwind CSS, with dynamic content driven entirely by a single JSON file.",
+                "Built a CI/CD pipeline with GitHub Actions that builds a Docker image, pushes to GHCR, and auto-updates the Kubernetes manifest on every push.",
+                "Deployed k3s on a VPS with ArgoCD for GitOps-based delivery — repo changes sync to the cluster automatically.",
+                "Configured Traefik + cert-manager for automatic SSL across multiple subdomains via Let's Encrypt.",
+                "Secured the server with a firewall and set up uptime monitoring with a public status page."
+            ],
+            "skills":[
+                "Docker",
+                "Kubernetes",
+                "k3s",
+                "ArgoCD",
+                "GitHub Actions",
+                "Traefik",
+                "cert-manager",
+                "GitOps",
+                "CI/CD",
+                "React",
+                "TypeScript",
+                "Tailwind CSS"
+            ]
+        },
+        {
             "title":"Bachelor Thesis: Secure Scuttlebutt Kotlin Library",
             "organization":"University of Basel",
             "logo":"project-ssb.svg",
