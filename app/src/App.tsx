@@ -15,12 +15,9 @@ export default function App() {
     setActiveTab(tab)
     if (tabRef.current) {
       const navHeight = (document.querySelector('nav') as HTMLElement)?.offsetHeight ?? 61
-      const tabBarEl = tabRef.current.firstElementChild as HTMLElement
-      const tabBarHeight = tabBarEl?.offsetHeight ?? 0
-      const skipTabBar = tabsInNav && window.innerWidth >= 640
       const rect = tabRef.current.getBoundingClientRect()
       window.scrollTo({
-        top: window.scrollY + rect.top - navHeight + (skipTabBar ? tabBarHeight : 0),
+        top: window.scrollY + rect.top - navHeight,
         behavior: 'smooth'
       })
     }
