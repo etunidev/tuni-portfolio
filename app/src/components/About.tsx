@@ -93,7 +93,7 @@ export default function About() {
           <p className="text-gray-300 text-sm">{age}</p>
         </div>
 
-        <div className="col-span-2 sm:col-span-2 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-4">
+        <div className="sm:col-span-2 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-4">
           <div className="flex items-center gap-1.5 mb-3 text-cyan-400">
             <GlobeIcon />
             <p className="text-xs font-mono">Languages</p>
@@ -108,7 +108,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="col-span-2 sm:col-span-1 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-4">
+        <div className="sm:col-span-1 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg p-4">
           <div className="flex items-center gap-1.5 mb-3 text-cyan-400">
             <SparkleIcon />
             <p className="text-xs font-mono">Interests</p>
