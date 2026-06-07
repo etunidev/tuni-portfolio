@@ -70,12 +70,12 @@ export function PortfolioCard({ entry, open, onToggle }: Props) {
       )}
 
       {/* Dot on the timeline line */}
-      <div className="hidden sm:block absolute -left-[5px] top-[5px] w-2.5 h-2.5 rounded-full bg-gray-950 border-2 border-cyan-500 z-10" />
+      <div className="absolute -left-[5px] top-[5px] w-2.5 h-2.5 rounded-full bg-gray-950 border-2 border-cyan-500 z-10" />
 
       {/* Content — entire area is clickable when expandable */}
       <div
         onClick={hasExpandable ? onToggle : undefined}
-        className={`pl-0 sm:pl-8 rounded-lg -mx-2 px-2 py-2 -my-2 transition-colors ${
+        className={`pl-6 sm:pl-8 rounded-lg -mx-2 px-2 py-2 -my-2 transition-colors ${
           hasExpandable ? 'cursor-pointer hover:bg-white/[0.03]' : ''
         }`}
       >
