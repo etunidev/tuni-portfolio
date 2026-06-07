@@ -48,7 +48,7 @@ export default function Contact() {
           <GitHubIcon />
         </a>
         <a
-          href="mailto:erbaytunahan@gmail.com"
+          href="mailto:tunahan@erbay.ch"
           title="Email"
           className="w-12 h-12 border border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:border-cyan-500 hover:text-cyan-400 transition-colors"
         >
