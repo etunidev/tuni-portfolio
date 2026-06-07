@@ -50,10 +50,17 @@
         ],
         "devops":[
             "Git",
+            "Docker",
+            "Kubernetes",
+            "k3s",
+            "ArgoCD",
+            "GitHub Actions",
+            "Traefik",
+            "CI/CD",
+            "GitOps",
             "Maven",
             "Jenkins",
             "Bitbucket",
-            "Docker",
             "RHOS"
         ],
         "tools":[
