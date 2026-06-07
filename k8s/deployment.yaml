@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: tuni-portfolio
-          image: ghcr.io/etunidev/tuni-portfolio:ab70aab88bc46599a65bf039c3920224cc119491
+          image: ghcr.io/etunidev/tuni-portfolio:28e75400f5d753511df358be81b766cae05f99df
           ports:
             - containerPort: 80
           resources:
