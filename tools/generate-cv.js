@@ -12,16 +12,22 @@ const photoPath = path.join(ROOT, 'app/src/assets/tuni.png')
 const outputPublicPath = path.join(ROOT, 'app/public/cv-tunahan-erbay.pdf')
 const outputPrivatePath = path.join(__dirname, 'cv-tunahan-erbay-private.pdf')
 
+const forcePublic = process.argv.includes('--public')
+
 const portfolio = JSON.parse(fs.readFileSync(portfolioPath, 'utf8'))
 
 let privateData = {}
 let hasPrivate = false
-try {
-  privateData = JSON.parse(fs.readFileSync(privatePath, 'utf8'))
-  hasPrivate = true
-  console.log('✓ Private data loaded')
-} catch {
-  console.log('ℹ No portfolio-private.json — using public data only')
+if (!forcePublic) {
+  try {
+    privateData = JSON.parse(fs.readFileSync(privatePath, 'utf8'))
+    hasPrivate = true
+    console.log('✓ Private data loaded')
+  } catch {
+    console.log('ℹ No portfolio-private.json — using public data only')
+  }
+} else {
+  console.log('ℹ --public flag set — skipping private data')
 }
 
 function isObject(value) {
