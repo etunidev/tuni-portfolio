@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- document body -->
+  <path d="M14 8 H40 L50 18 V56 A2 2 0 0 1 48 58 H16 A2 2 0 0 1 14 56 Z" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round"/>
+  <!-- folded corner -->
+  <polyline points="40,8 40,18 50,18" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round" opacity="0.5"/>
+  <!-- text lines -->
+  <line x1="21" y1="28" x2="43" y2="28" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+  <line x1="21" y1="35" x2="43" y2="35" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+  <line x1="21" y1="42" x2="34" y2="42" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <!-- small download arrow -->
+  <polyline points="38,46 38,54 34,50 38,54 42,50" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+</svg>

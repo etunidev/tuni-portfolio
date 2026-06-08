@@ -395,7 +395,21 @@
     ],
     "projects":[
         {
-            "title":"tuni.dev — Portfolio & DevOps Platform",
+            "title":"CV Generator",
+            "organization":"Personal Project",
+            "logo":"project-cv-generator.svg",
+            "location":"Remote",
+            "startDate":"",
+            "endDate":"2026-06",
+            "summary":"Built a local PDF CV generator that renders a styled, multi-page resume from portfolio data, with two output modes: a public version served on the portfolio site and a private version with personal contact details for direct applications.",
+            "achievements":[
+                "Generates a pixel-perfect A4 PDF using Puppeteer and a fully custom HTML/CSS layout with sidebar, photo, and dynamic section rendering.",
+                "Supports a gitignored private data file that extends the public JSON with personal details, routing to a separate output path to prevent accidental commits."
+            ],
+            "skills":["Node.js","Puppeteer","HTML","CSS","PDF"]
+        },
+        {
+            "title":"tuni.dev — Personal Portfolio",
             "organization":"Personal Project",
             "logo":"project-devops.svg",
             "location":"Remote",
