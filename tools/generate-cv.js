@@ -9,7 +9,8 @@ const ROOT = path.join(__dirname, '..')
 const portfolioPath = path.join(ROOT, 'app/src/assets/portfolio.json')
 const privatePath = path.join(__dirname, 'portfolio-private.json')
 const photoPath = path.join(ROOT, 'app/src/assets/tuni.png')
-const outputPath = path.join(ROOT, 'app/public/cv-tunahan-erbay.pdf')
+const outputPublicPath = path.join(ROOT, 'app/public/cv-tunahan-erbay.pdf')
+const outputPrivatePath = path.join(__dirname, 'cv-tunahan-erbay-private.pdf')
 
 const portfolio = JSON.parse(fs.readFileSync(portfolioPath, 'utf8'))
 
@@ -697,7 +698,7 @@ async function main() {
   await page.setContent(html, { waitUntil: 'load' })
 
   await page.pdf({
-    path: outputPath,
+    path: hasPrivate ? outputPrivatePath : outputPublicPath,
     format: 'A4',
     printBackground: true,
     margin: {
@@ -710,7 +711,8 @@ async function main() {
 
   await browser.close()
 
-  console.log(`✓ Saved → ${outputPath}`)
+  const savedTo = hasPrivate ? outputPrivatePath : outputPublicPath
+  console.log(`✓ Saved → ${savedTo}`)
 }
 
 main().catch(error => {
