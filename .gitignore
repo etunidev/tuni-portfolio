@@ -6,3 +6,4 @@ dist/
 .DS_Store
 app/src/assets/CV_German.pdf
 tools/portfolio-private.json
+preview/
