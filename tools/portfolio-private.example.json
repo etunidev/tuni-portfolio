@@ -1,0 +1,10 @@
+{
+  "about": {
+    "phone": "+41 XX XXX XX XX",
+    "address": "Musterstrasse 1, 4621 Muster",
+    "birthDate": "01.01.1990",
+    "nationality": "nationality",
+    "permit": "X",
+    "civilStatus": "Single"
+  }
+}

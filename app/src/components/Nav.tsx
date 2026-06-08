@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import portfolioData from '../assets/portfolio.json'
 import { TABS, Tab } from '../types'
 
-const cvUrl = '/CV_Tunahan_Erbay.pdf'
+const cvUrl = '/cv-tunahan-erbay.pdf'
 const { email } = portfolioData.about
 
 interface NavProps {
@@ -70,7 +70,7 @@ export default function Nav({ tabsInNav, activeTab, setActiveTab }: NavProps) {
         <div className="flex items-center gap-3">
           <a
             href={cvUrl}
-            download="CV_Tunahan_Erbay.pdf"
+            download="cv-tunahan-erbay.pdf"
             className="flex items-center gap-2 px-3 sm:px-4 py-2 text-sm text-gray-300 border border-gray-700 rounded-lg hover:border-cyan-500 hover:text-cyan-400 transition-colors font-mono"
           >
             <DocumentIcon />
