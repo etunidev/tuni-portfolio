@@ -93,17 +93,13 @@ function period(entry) {
   return ''
 }
 
-function yearsOfExperience(experience) {
-  const years = (experience ?? [])
-    .map(entry => entry.startDate)
-    .filter(Boolean)
-    .map(date => Number(String(date).slice(0, 4)))
-    .filter(Boolean)
-
-  if (!years.length) return ''
-
-  const earliest = Math.min(...years)
-  return `${new Date().getFullYear() - earliest}+`
+function yearsOfExperience(startYear, startMonth, startDay) {
+  const start = new Date(startYear, startMonth - 1, startDay)
+  const today = new Date()
+  let years = today.getFullYear() - start.getFullYear()
+  const m = today.getMonth() - start.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < start.getDate())) years--
+  return `${years}+`
 }
 
 function tag(value) {
@@ -259,7 +255,7 @@ function generateHTML(d, isPrivate = false) {
   const about = d.about ?? {}
   const skills = d.skills ?? {}
 
-  const yoe = yearsOfExperience(d.experience)
+  const yoe = yearsOfExperience(2018, 6, 1)
   const intro = (hero.introduction ?? '').replace('{yearsOfExperience}', yoe)
 
   const contactPublic = [
